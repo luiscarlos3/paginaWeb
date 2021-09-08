@@ -18,6 +18,14 @@ section {
     border: 2px solid black;
     border-radius: 12px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: .5s;
+}
+
+section:hover {
+    border: 14px solid red;
+    text-align: justify;
+    width: 800px;
+    height: 450px;
 }
 
 .texto {
